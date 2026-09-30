@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>estudo fetch</title>
 </head>
 <body>
     <h1>Teste</h1>
+    <p>Cada botão chama um método</p>
+
+    <hr/>
+
+    <h2>GET - listar alunos</h2>
+    <button id="BtnGet">listar</button>
+    
+    <h2>POST - Cadastrar aluno</h2>
+    <input id="cad-nome" placeholder="nome">
+    <input id="cad-email" placeholder="email">
+    <input id="cad-senha" placeholder="senha">
+    <button id="btn-cadastrar">Cadastrar</button>
+
+    <section>
+        <h2>PUT - Atualizar alunos</h2>
+            <input id="atualizar-nome" placeholder="nome">
+            <input id="atualizar-email" placeholder="email">
+            <input id="atualizar-senha" placeholder="senha">
+            <button id="btn-atualizar">Cadastrar</button>
+    </section>
+
+    <section>
+        <h2>DELETE - Apagar alunos</h2>
+            <input id="deletar-id" placeholder="id">
+            <button id="btn-apagar">Apagar</button>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
